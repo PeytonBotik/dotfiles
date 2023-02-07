@@ -4,7 +4,7 @@ echo -e "`bash --version`"
 echo -ne "Uptime: "; uptime
 echo -ne "Server time is: "; date
 
-if [ -e $HOME/.bashrc ]f "FILE"; then
+if [ -e $HOME/.bashrc ]; then
 	source $HOME/.bash_profile
 fi
 

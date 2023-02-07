@@ -5,7 +5,7 @@ echo -ne "Uptime: "; uptime
 echo -ne "Server time is: "; date
 
 if [ -e $HOME/.bashrc ]; then
-	source $HOME/.bash_profile
+	source $HOME/.bashrc
 fi
 
 set -o vi
